@@ -7,22 +7,37 @@
     <title>Madasamy_portfolio</title>
 </head>
 <link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 
 <body>
-
     <div class="container" id="home">
-        <div class="header">
-            <ol>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#aboutme">About me</a></li>
-                <li><a href="#skills"> Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ol>
-        </div>
+        <header>
+            <div>
+                <img src="./Assests/images/1000_F_206972633_vMR6ssJsqtCTfktgFe68L0H5exFJLWL7.jpg" alt=""
+                    class="header-icon">
+            </div>
+
+            <nav>
+
+                <a href="#home">Home</a>
+                <a href="#aboutme">About me</a>
+                <a href="#skills"> Skills</a>
+                <a href="#contact">Contact</a>
+
+            </nav>
+        </header>
+
+
+
         <div class="main">
             <div class="main-text">
                 <h1>MADASAMY</h1>
                 <h3>Developer</h3>
+                <button><a href="./Assests/images/Madasamy_Resume.pdf" download="Madasamy_Resume.pdf"
+                        class="download_btn">Download CV</a><i class="fa-solid fa-download"></i></button>
             </div>
             <div class="image_1">
                 <img src="./Assests/images/image_1.jpg" alt="">
@@ -33,11 +48,8 @@
     <!-- aboutme page -->
 
     <div class="container1" id="aboutme">
-       
 
-
-
-        <div class="main1">
+        <!-- <div class="main1"> -->
             <div class="image_2">
                 <img src="./Assests/images/image_2.jpeg" alt="">
             </div>
@@ -46,20 +58,16 @@
                 <div class="about1">
 
                     <h1>About me</h1>
-                    <h4>I'm Madasamy</h4>
-                    <h4>I'm from Tirunelveli</h4>
-                </div>
-
-
-                <div class="about1">
-
-                    <h1>Educational Background</h1>
-                    <h4>I have completed Mechanical Engineering in Diplomo </h4>
-
+                    <h4>I'm madasamy, i am from Tirunelveli. I have completed Diploma Mechanical Engineering. I'm
+                        building my skills in Life skills and Tech. I'm excited to apply what I've learned to real-world
+                        projects. I'm eager to grow and contribute to innovative tech solutions. </h4>
 
                 </div>
+
+
+
             </div>
-        </div>
+        <!-- </div> -->
 
 
     </div>
@@ -72,15 +80,22 @@
             <div class="images-content">
                 <div class="skills-image">
                     <h3>TYPING</h3>
-                    <img src="./Assests/images/image_3.jpg" alt="">
+                    <img src="./Assests/images/image_3.jpg" height="165px" alt="">
+                    <input type="range" min="1" max="100" value="90">
+
                 </div>
                 <div class="skills-image">
                     <h3>HTML</h3>
                     <img src="./Assests/images/image_4.jpg" alt="">
+                    <input type="range" min="1" max="100" value="70">
+
+
                 </div>
                 <div class="skills-image">
                     <h3>CSS</h3>
                     <img src="./Assests/images/image_5.jpg" alt="">
+                    <input type="range" min="1" max="100" value="50">
+
                 </div>
             </div>
 
@@ -89,30 +104,57 @@
     </div>
 
     <!-- contact -->
-
     <div class="container3" id="contact">
-     
-        <div class="contact-head">
-            <h1>Contact me</h1>
-        </div>
-        <div class="contact-main">
-            <div class="column1">
-                <img src="./Assests/images/image_6.jpg" alt="">
-                <img src="./Assests/images/image_7.jpg" alt="">
-                <img src="./Assests/images/image_8.png" alt="">
+
+        <h1 class="contact-head">Contact us</h1>
+
+        <div class="maddy">
+            <div class="samy">
+                <h2>Our office</h2>
+                <div class="samy1">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <h4>+91 9384121456</h4>
+                </div>
+                <div class="samy1">
+                    <i class="fa-solid fa-house" style="color:white;"></i>
+                    <h4>1/11A, Pirancheri,Tirunelveli</h4>
+                </div>
             </div>
-            <div class="column1">
-                <h3>919384121456</h3>
-                <h3>madasamy.asokan@fssa.freshworks.com</h3>
-                <h3>1/11A, Pirancheri,Tirunelveli</h3>
+            <div class="samy">
+                <h2>Say hello</h2>
+
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Telephone">
+                <input type="email" placeholder="Email" required>
+                <textarea name="" id="" placeholder="messege..."></textarea>
+                <button type="submit" id="button1">submit</button>
 
             </div>
+            <div class="samy">
+                <h2>Keep connected</h2>
+                <div class="samy1">
+                    <i class="fa-brands fa-x-twitter" style="color: white;"></i>
+                    <h4>@Madasamy2002</h4>
+                </div>
+                <div class="samy1">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <h4>Madasamy Madasamy</h4>
+                </div>
+                <div class="samy1">
+                    <i class="fa-solid fa-envelope" style="color: white;"></i>
+                    <h4>madasamy.asokan@fssa.freshworks.com</h4>
+                </div>
+            </div>
+
+
 
         </div>
 
-   
-      
 
+
+        <footer>
+            &copy;2024 my portfolio Design by Madasamy
+        </footer>
 
     </div>
 </body>
