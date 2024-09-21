@@ -26,46 +26,41 @@ header{
     align-items: center;
     position: fixed;
     background-color: gray;
-    
-
 } 
 
 
-
-a {
-    
+ a{
     text-decoration: none;
     color: white;
     margin: 20px;
     font-size: 25px;
-    
-   
-    
 }
 
-a:hover {
-    border-radius: 5px;
+
+ a:hover{
+     border-radius: 5px;
      color: blue; 
-    
+     text-decoration:underline;    
 }
+
 .header-icon{
     height: 60px;
     width: 60px;
-    
+    transition: 0.5s ease;
   
 }
-
+.header-icon:hover{
+    transform: scale(1.1);
+}
 
 .main {
     display: flex;
     flex-direction: row;
     
-  
 }
+
 .main-text {
-   
-    
-    color: white;
+   color: white;
     margin: 320px;
     margin-left: 50px;
 }
@@ -85,34 +80,31 @@ button {
     width: 350px;
     height: 50px;
     border-radius: 10px;
-   
+  
 }
+
 
 button i::before {
     font-size: 30px;
     margin-right: 10px;
-
+    
 }
+
 
 .download_btn {
     color: black;
 
 }
-
-
 .image_1 img {
-   
-  
     width: 450px;
     height: 450px;
     border-radius: 50%;
     border: 5px solid white;
     padding: 5px;
      margin-top: 250px;  
-     
-   
-   
+      
 }
+
 
 /* about page */
 
@@ -122,19 +114,12 @@ button i::before {
 flex-direction: row;
 }
 
-/* .main1 {
-    display: flex;
-    flex-direction: row;
-    
-} */
-
-
 .image_2 img {
     margin-top: 10vh;
-    /* width: 80%; */
-    height: 80vh;
-    margin-left: 45px;
-    margin-top: 140px;
+   width: 400px;
+    height: 70vh;
+    margin-left: 85px;
+    margin-top: 160px;
     border-radius: 20px;
 
 
@@ -143,9 +128,9 @@ flex-direction: row;
 .about1 h1 {
     margin-top: 10vh;
     color: white;
-    font-size: 70px;
+    font-size: 60px;
     line-height: 180px;
-    margin-left: 50px;
+    margin-left: 160px;
     text-decoration: underline;
 
 }
@@ -155,14 +140,14 @@ flex-direction: row;
     font-size: 25px;
     line-height: 80px;
     margin-left: 20%;
-    width: 800px;
+    width: 700px;
 }
 
 /* skills page */
 
 .container2 {
     height: 100vh;
-    /* width: 99vw; */
+  
 
 }
 
@@ -170,7 +155,7 @@ flex-direction: row;
 
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
+  
 }
 
 .main2 h1 {
@@ -191,18 +176,17 @@ flex-direction: row;
     justify-content: space-around;
     text-align: center;
     margin-top: 50px;
+   
 }
 
 .skills-image {
     display: flex;
     flex-direction: column;
-  
+   
 }
 .skills-image img{
     border-radius: 10px;
-    /* height: 200px;
-    width: 350px;
-    margin-left: 35px; */
+   
 }
 
 
@@ -214,46 +198,47 @@ flex-direction: row;
    
 }
 
+
 /* contact */
 
 .container3{
     height: 100vh;
 }
 
-.contact-head {
+.contact-heading{
     text-align: center;
     font-size: 60px;
     padding: 100px;
     text-decoration: underline;
 }
-.maddy{
+.contact_main{
     display: flex;
     flex-direction: row;
 }
-.samy{
+.contact_head{
     display: flex;
     flex-direction: column;
     margin-left: 120px;
-   gap: 40px;
+    gap: 40px;
    
 }
-.samy h2{
+.contact_head h2{
    
     font-size: 30px;
 }
-.samy h4{
+.contact_head h4{
     color: gray;
-    font-size: 15px;
+    font-size: 17px;
 }
-.samy i::before{
+.contact_head i::before{
     font-size: 30px;
 }
 
-.samy1{
+.contact_image{
     display: flex;
     gap: 10px;
 }
-.samy input{
+.contact_head input{
     height: 30px;
     width: 300px;
 }
@@ -263,7 +248,7 @@ textarea{
     width: 300px;
 }
 
-.samy button{
+.contact_head button{
     margin: 0%;
     width: 150px;
     height: 40px;
@@ -276,8 +261,7 @@ footer{
 
 .container3 footer{
     height: 6vh;
-    /* width: 100%; */
-    background-color: gray;
+   background-color: gray;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -302,7 +286,7 @@ footer{
     .main{
         flex-wrap: wrap;
         flex-direction: column;
-        /* height: 1900px; */
+       
     }
     body{
         margin: 0px;
@@ -353,8 +337,9 @@ footer{
         height: 140vh;
     }
     .about1>h1{
-        font-size: 35px;
-       padding: 0%;
+    font-size: 35px;
+       text-align: center;
+       margin: 0%;
     }
     .about1>h4{
         width: 360px;
@@ -385,16 +370,19 @@ footer{
        
         height: 110vh;
     }
-    .maddy{
+    .contact-heading{
+        font-size: 30px;
+    }
+    .contact_main{
         display: flex;
         flex-wrap: wrap;
     
     }
-    .samy{
+    .contact_head{
         margin: 20px;
         padding: 20px;
     }
-    .samy1>h4{
+    .contact_image>h4{
         font-size: 10px;
        
     }
