@@ -74,6 +74,11 @@ a:hover{
     font-weight: bolder;
 
 }
+.home_button{
+   display: flex;
+  justify-content: space-between;
+  
+}
 
 button{
     margin-top: 100px;
@@ -85,7 +90,7 @@ button{
 } 
 button a{
     color: black;
-    font-size: x-large;
+    font-size: 24px;
     font-weight: bolder;
 }
 
@@ -93,8 +98,16 @@ button i::before {
     font-size: 30px;
     margin-right: 10px;
     
-    
 }
+.hireme_button{
+    background-color: white;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+   
+}
+
+
 
 .image_1 img {
     width: 450px;
@@ -179,7 +192,7 @@ flex-direction: row;
 
 .skills-image p {
     font-size: 25px;
-    margin: 80px;
+    margin: 60px;
     font-weight: bolder;
 }
 
@@ -188,7 +201,7 @@ flex-direction: row;
   
     justify-content: space-around;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 100px;
    
 }
 
@@ -221,6 +234,7 @@ flex-direction: row;
 }
 
 .contact-heading{
+    margin-top: 200px;
     text-align: center;
     font-size: 60px;
     padding: 100px;
@@ -293,7 +307,7 @@ footer{
 
 @media screen and (max-width:800px){
     .container{
-        height: 90vh;
+        height: 110vh;
     }
     header{
         width: 400px;
@@ -332,6 +346,11 @@ footer{
     .main-text>button{
         margin-top: 20px;
         width: 280px;
+    }
+    .home_button{
+        display: flex;
+        flex-wrap: wrap;
+        
     }
     .image_1{
         width:390px;
