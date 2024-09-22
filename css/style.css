@@ -5,16 +5,15 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body {
+ body{
     color: white;
     background-color: black;
-
+    
 }
 
 
 .container {
     height: 100vh;
-
 }
 
 header{
@@ -29,7 +28,7 @@ header{
 } 
 
 
- a{
+a{
     text-decoration: none;
     color: white;
     margin: 20px;
@@ -37,7 +36,7 @@ header{
 }
 
 
- a:hover{
+a:hover{
      border-radius: 5px;
      color: blue; 
      text-decoration:underline;    
@@ -61,7 +60,7 @@ header{
 
 .main-text {
    color: white;
-    margin: 320px;
+    margin: 300px;
     margin-left: 50px;
 }
 
@@ -69,39 +68,43 @@ header{
     font-size: 90px;
 }
 
-.main-text h3 {
-    font-size: 40px;
+.main-text p {
+    font-size: 50px;
     color: gray;
+    font-weight: bolder;
 
 }
 
-button {
+button{
     margin-top: 100px;
-    width: 350px;
+    width: 270px;
     height: 50px;
     border-radius: 10px;
-  
-}
+    background-color:#2561cf;
 
+} 
+button a{
+    color: black;
+    font-size: x-large;
+    font-weight: bolder;
+}
 
 button i::before {
     font-size: 30px;
     margin-right: 10px;
     
+    
 }
 
-
-.download_btn {
-    color: black;
-
-}
 .image_1 img {
     width: 450px;
     height: 450px;
     border-radius: 50%;
     border: 5px solid white;
     padding: 5px;
-     margin-top: 250px;  
+   
+    margin-top: 230px;
+   
       
 }
 
@@ -130,33 +133,42 @@ flex-direction: row;
     color: white;
     font-size: 60px;
     line-height: 180px;
-    margin-left: 160px;
+    margin-left: 130px;
     text-decoration: underline;
 
 }
 
-.about1 h4 {
+.about1 p {
     color: gray;
-    font-size: 25px;
+    font-size: 22px;
     line-height: 80px;
-    margin-left: 20%;
-    width: 700px;
+    margin-left: 15%;
+    width: 800px;
 }
+.about1 button{
+    background-color: aqua;
+    width: 250px;
+}
+.about1 a{
+    color: black;
+    
+}
+
+
 
 /* skills page */
 
 .container2 {
     height: 100vh;
-  
-
+    
 }
 
-.main2 {
+.main2{
 
     display: flex;
     flex-direction: column;
-  
-}
+   
+} 
 
 .main2 h1 {
     font-size: 60px;
@@ -165,9 +177,10 @@ flex-direction: row;
     text-decoration: underline;
 }
 
-.skills-image h3 {
-    font-size: 40px;
+.skills-image p {
+    font-size: 25px;
     margin: 80px;
+    font-weight: bolder;
 }
 
 .images-content {
@@ -182,19 +195,21 @@ flex-direction: row;
 .skills-image {
     display: flex;
     flex-direction: column;
+    margin-left: 20px;
    
 }
 .skills-image img{
     border-radius: 10px;
+    height: 165px;
+    width: 280px;
    
 }
 
 
-.skills-image input {
+.skills-image input  {
 
     padding: 70px;
-    color: rgb(31, 125, 220);
-    background: rgb(29, 177, 240);
+     width: 150px;
    
 }
 
@@ -222,13 +237,15 @@ flex-direction: row;
     gap: 40px;
    
 }
+
 .contact_head h2{
    
     font-size: 30px;
 }
-.contact_head h4{
+.contact_head p{
     color: gray;
     font-size: 17px;
+    font-weight: bolder;
 }
 .contact_head i::before{
     font-size: 30px;
@@ -254,6 +271,10 @@ textarea{
     height: 40px;
     background-color: aqua;
 }
+.contact_head a{
+    font-size: 15px;
+    color: black;
+}
 footer{
     width: 100%;
 }
@@ -270,12 +291,12 @@ footer{
    margin-top: 104px;
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:800px){
     .container{
         height: 90vh;
     }
     header{
-        width: 390px;
+        width: 400px;
         align-items: center;
         justify-content: space-evenly;
     }
@@ -295,7 +316,7 @@ footer{
         font-size: 45px;
        
     }
-    .main-text h3{
+    .main-text p{
        
         font-size: 30px;
     }
@@ -325,7 +346,7 @@ footer{
         width: 390px;
     }
     .image_2>img{
-        height: 70vh;
+        height: 50vh;
         width: 90%;
         margin:0px;
         padding: 20px;
@@ -334,14 +355,14 @@ footer{
     .container1{
         display: flex;
         flex-wrap: wrap;
-        height: 140vh;
+        height: 120vh;
     }
     .about1>h1{
     font-size: 35px;
        text-align: center;
        margin: 0%;
     }
-    .about1>h4{
+    .about1>p{
         width: 360px;
         margin:0px;
         font-size: 13px;
@@ -359,7 +380,7 @@ footer{
     .main2 h1{
         font-size: 40px;
     }
-    .skills-image h3{
+    .skills-image p{
         margin:40px;
         font-size: 30px;
     }
@@ -368,7 +389,7 @@ footer{
     }
     .container3{
        
-        height: 110vh;
+        height: 120vh;
     }
     .contact-heading{
         font-size: 30px;
@@ -382,7 +403,7 @@ footer{
         margin: 20px;
         padding: 20px;
     }
-    .contact_image>h4{
+    .contact_image>p{
         font-size: 10px;
        
     }
@@ -392,7 +413,7 @@ footer{
        padding: 60px;
     }
     footer{
-        width: auto;
+        width: 100%;
     }
     
 }
