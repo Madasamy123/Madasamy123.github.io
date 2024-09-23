@@ -36,9 +36,11 @@ a{
 }
 
 
-a:hover{
+nav a:hover,
+a.active{
      border-radius: 5px;
      color: #2965d5; 
+   
      text-decoration:underline;    
 }
 
@@ -81,7 +83,7 @@ a:hover{
 }
 
 button{
-    margin-top: 100px;
+    margin-top: 80px;
     width: 270px;
     height: 50px;
     border-radius: 10px;
@@ -192,7 +194,7 @@ flex-direction: row;
 
 .skills-image p {
     font-size: 25px;
-    margin: 60px;
+    margin: 50px;
     font-weight: bolder;
 }
 
@@ -213,17 +215,24 @@ flex-direction: row;
 }
 .skills-image img{
     border-radius: 10px;
-    height: 165px;
+    height: 185px;
     width: 280px;
    
 }
 
 
 .skills-image input  {
-
-    padding: 70px;
-     width: 150px;
    
+    padding: 25px;
+     width: 220px;
+   
+}
+.skills-image h1{
+    font-size: 30px;
+    margin: 10%;
+    text-decoration: none;
+    color: white;
+    
 }
 
 
@@ -353,13 +362,13 @@ footer{
         
     }
     .image_1{
-        width:390px;
+        width:380px;
     }
     .image_1>img{
         margin: 0px;
-        width: 350px;
-        height: 350px;
-       margin-left: 10px;
+        width: 300px;
+        height: 300px;
+        margin-left: 10px;
     }
     .image_2{
         width: 390px;
@@ -406,12 +415,16 @@ footer{
     .images-content{
         margin-top: 50px;
     }
+    .skills-image h1{
+        font-size: 35px;
+    }
     .container3{
        
         height: 120vh;
     }
     .contact-heading{
         font-size: 30px;
+        margin-top: 500px;
     }
     .contact_main{
         display: flex;

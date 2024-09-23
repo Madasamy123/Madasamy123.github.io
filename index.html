@@ -15,7 +15,7 @@
 
 
 <body>
-    <div class="container" id="home">
+    <section class="container" id="home">
 
         <header>
             <div>
@@ -52,12 +52,12 @@
             </div>
 
         </div>
-    </div>
+    </section>
 
 
     <!-- aboutme page -->
 
-    <div class="container1" id="aboutme">
+    <section class="container1" id="aboutme">
 
 
         <div class="image_2">
@@ -78,12 +78,12 @@
             </div>
 
         </div>
-    </div>
+    </section>
 
     <!-- skills -->
 
 
-    <div class="container2" id="skills">
+    <section class="container2" id="skills">
 
         <div class="main2">
             <h1>Skills</h1>
@@ -91,38 +91,39 @@
                 <div class="skills-image">
                     <p>TYPING</p>
                     <img src="./Assests/images/image_3.jpg" alt="type">
-                    <input type="range" min="1" max="100" value="90">
-
+                    <input type="range" min="1" max="100" value="95" disabled >
+                    <h1>95%</h1>
                 </div>
                 <div class="skills-image">
                     <p>HTML</p>
                     <img src="./Assests/images/image_4.png" alt="html">
-                    <input type="range" min="1" max="100" value="70">
-
+                    <input type="range" min="1" max="100" value="75" disabled>
+                    <h1>75%</h1>
 
                 </div>
                 <div class="skills-image">
                     <p>CSS</p>
                     <img src="./Assests/images/image_5.jpg" alt="css">
-                    <input type="range" min="1" max="100" value="50">
-
+                    <input type="range" min="1" max="100" value="65" disabled>
+                    <h1>65%</h1>
                 </div>
                 <div class="skills-image">
                     <p>JAVA SCRIPT</p>
                     <img src="./Assests/images/image_6.png" alt="js">
-                    <input type="range" min="1" max="100" value="10">
+                    <input type="range" min="1" max="100" value="10" disabled>
+                    <h1>10%</h1>
                 </div>
 
             </div>
 
         </div>
 
-    </div>
+    </section>
 
     <!-- contact -->
 
 
-    <div class="container3" id="contact">
+    <section class="container3" id="contact">
 
         <h1 class="contact-heading">Contact Us</h1>
 
@@ -144,7 +145,7 @@
             <div class="contact_head">
                 <h2>Say hello</h2>
 
-                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Name" required>
                 <input type="text" placeholder="Telephone">
                 <input type="email" placeholder="Email" required>
                 <textarea name="" id="" placeholder="messege..."></textarea>
@@ -178,8 +179,8 @@
             &copy;2024 my portfolio Design by Madasamy
         </footer>
 
-    </div>
-
+    </section>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
