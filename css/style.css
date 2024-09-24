@@ -39,7 +39,7 @@ a{
 nav a:hover,
 a.active{
      border-radius: 5px;
-     color: #2965d5; 
+     color: #1b5ad0; 
    
      text-decoration:underline;    
 }
@@ -48,6 +48,7 @@ a.active{
     height: 60px;
     width: 60px;
     transition: 0.5s ease;
+   
   
 }
 .header-icon:hover{
@@ -71,7 +72,7 @@ a.active{
 }
 
 .main-text p {
-    font-size: 50px;
+    font-size: 45px;
     color: gray;
     font-weight: bolder;
 
@@ -87,7 +88,8 @@ button{
     width: 270px;
     height: 50px;
     border-radius: 10px;
-    background-color:#2561cf;
+    /* background-color:#2561cf; */
+    background-color: burlywood;
 
 } 
 button a{
@@ -161,7 +163,7 @@ flex-direction: row;
     width: 800px;
 }
 .about1 button{
-    background-color: aqua;
+    background-color:  burlywood;
     width: 250px;
 }
 .about1 a{
@@ -227,6 +229,14 @@ flex-direction: row;
      width: 220px;
    
 }
+.skills-image a:hover{
+
+background-color:  #2965d5 ;
+border-radius: 60px;
+width: 150px;
+height: 60px;
+
+}
 .skills-image h1{
     font-size: 30px;
     margin: 10%;
@@ -272,11 +282,20 @@ flex-direction: row;
 }
 .contact_head i::before{
     font-size: 30px;
+    margin: 10px;
+    
 }
 
-.contact_image{
+
+
+.contact_image {
     display: flex;
     gap: 10px;
+  
+}
+.contact_image a{
+    position: relative;
+    bottom: 20px;
 }
 .contact_head input{
     height: 30px;
@@ -292,7 +311,8 @@ textarea{
     margin: 0%;
     width: 150px;
     height: 40px;
-    background-color: aqua;
+     background-color:  burlywood; 
+    
 }
 .contact_head a{
     font-size: 15px;
@@ -313,13 +333,19 @@ footer{
     font-weight: bolder;
    margin-top: 104px;
 }
+i{
+    color: white;
+}
+i:hover{
+    color: #1b5ad0;
+}
 
 @media screen and (max-width:800px){
     .container{
         height: 110vh;
     }
     header{
-        width: 400px;
+        /* width: 400px; */
         align-items: center;
         justify-content: space-evenly;
     }
@@ -424,7 +450,7 @@ footer{
     }
     .contact-heading{
         font-size: 30px;
-        margin-top: 500px;
+        margin-top: 600px;
     }
     .contact_main{
         display: flex;
