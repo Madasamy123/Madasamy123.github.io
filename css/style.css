@@ -21,15 +21,15 @@ img:hover{
 }
 .image_1 img{
     box-shadow: 10 5px 40px blue;
-    transition: transform 0.3s, box-shadow 0.3s;
+    transition: transform 0.3s
 }
 .image_1 img:hover{
     transform:scale(1.0.5);
     box-shadow: 0 10px 100px blue;
 }
- .image_2 img{
+.image_2 img{
     box-shadow: 10 5px 40px blue;
-    transition: transform 0.3s, box-shadow 0.3s;
+    transition: transform 0.3s 
 }
 .image_2 img:hover{
     transform:scale(1.0.5);
