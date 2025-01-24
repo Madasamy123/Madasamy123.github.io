@@ -14,3 +14,31 @@ window.onscroll = () =>{
         }
     });
   };
+
+
+
+
+
+// progress-percentage
+
+
+
+//   window.onload = function() {
+//     // Set the width of each progress bar based on the percentage
+//     const skills = [
+//         { element: '.typing-progress', percent: 50 },
+//         { element: '.english-progress', percent: 50 },
+//         { element: '.life-skills-progress', percent: 50 },
+//         { element: '.html-progress', percent: 50 },
+//         { element: '.css-progress', percent: 50 },
+//         { element: '.js-progress', percent: 50 },
+//         { element: '.mysql-progress', percent: 50 },
+//         { element: '.python-progress', percent: 50 }
+//     ];
+
+//     // Loop through each skill and set the progress width
+//     skills.forEach(skill => {
+//         const progressBar = document.querySelector(skill.element);
+//         progressBar.style.width = skill.percent + '%';
+//     });
+// };

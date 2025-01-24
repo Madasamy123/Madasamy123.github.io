@@ -1,0 +1,60 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: black; /* Text color */
+    font-size: 16px; /* Adjust size as needed */
+    margin: 0 10px; /* Add spacing between items */
+    padding: 5px 10px;
+}
+
+nav a::before,
+nav a::after {
+    content: '>'; /* Arrow symbol */
+    font-size: 12px; /* Adjust arrow size */
+    color: #FF5733; /* Arrow color */
+    position: absolute;
+}
+
+nav a::before {
+    left: -10px; /* Adjust distance from the text */
+    transform: rotate(180deg); /* Flip the arrow */
+}
+
+nav a::after {
+    right: -15px; /* Adjust distance from the text */
+}
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#home">HOME</a>
+        <a href="#aboutme">ABOUT ME</a>
+        <a href="#project">PROJECT</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+    
+    
+</body>
+</html>
+
+
+
+
+
+
+
